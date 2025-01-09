@@ -1,0 +1,24 @@
+#IEPE/V切换命令
+iepe_v: [1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+#通道增益
+gain: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+#采集通道
+channel: [1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+#采集频率：
+sps: 1024
+
+server_ip: '192.168.0.102'
+server_port: 3333
+
+client_ip: '192.168.0.163'
+client_port: 3320
+
+mqtt_ip: '192.168.230.64'
+mqtt_topic: 'shake'
+mqtt_port: 1883
+
+fft_window: 256
+fft_refresh_fre: 1

@@ -187,7 +187,7 @@ if __name__ == "__main__":
     ax.set_ylabel('Magnitude(db)')
     ax.set_title('OCTAVE PSD')
     ax.set_xscale('log')
-    ax.set_ylim(0, 80)
+    ax.set_ylim(-20, 80)
     ax.set_xlim(0,1030)
 
     # # 创建动画
